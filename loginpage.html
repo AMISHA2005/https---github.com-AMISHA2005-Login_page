@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORMS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <form action="server">
+    <div>
+        <label>
+            username:
+            <input type="text" placeholder="type your name" name="username">
+        </label>
+    </div>
+    <div>
+        <label>
+            dateofbirth:
+        <input type="date" placeholder="your dob" name="date">
+        </label>
+    </div>
+    <div>
+        <label>
+        pin code:
+        <input type="number" placeholder="your area pincode" name="pin">
+    </label>
+    </div>
+    <div>
+        <label for="password"> Enter password:</label> 
+        <input type="password" id="password" placeholder="enter your password" name="password">
+    </div>
+    <div>
+        <label for="search"> start search</label>
+        <input type="search" id="search" placeholder="search" name="search">
+    </div>
+    <div>
+        <label for="time" > time:</label>
+        <input type="time" id="time" name="time">
+    </div>
+    <div>
+        <label for="color" >choose color:</label>
+        <input type="color" id="color" name="color">
+
+    </div>
+    <div>
+    <button type="menu">menu</button>
+    <button type="submit">button submit</button>
+    <button type="button">click me</button>
+    <button type="reset"> reset all data</button>
+    <form action="https://www.bing.com/search?">
+        <label for="search">SEARCH IN GOOGLE:</label>
+        <input type="text" placeholder="search" id="search" name="q">
+        <button>submit</button>
+    <form action="https://www.youtube.com/results?">
+        <label for="search">SEARCH IN YOUTUBE:</label>
+        <input type="text" placeholder="serach in yt" id="search" name="search_query">
+        <input type="submit" value="click to search">
+    </form>
+    <form action="https://www.reddit.com/search/?">
+        <label>
+            SEARCH IN REDDIT:
+            <input type="text" placeholder="search in reddit" name="q">
+        </label>
+        <button>submit</button>
+    </form>
+    <form action="action">
+        <div>
+        <input type="checkbox" id="tick" name="data"checked>
+        <label for="tick">i am 18+</label>
+        <button>submit</button>
+    
+        </div>
+        <div>
+            <input type="radio" id="apple" name="fruit" value="apple">
+            <label for="apple">Do you agree with our terms and conditions?</label>
+    </div>
+    </form>
